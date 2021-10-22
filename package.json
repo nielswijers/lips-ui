@@ -6,11 +6,14 @@
   "repository": "git@github.com:nielswijers/lips-ui.git",
   "author": "Niels Wijers <nielswijers@gmail.com>",
   "license": "MIT",
-	"scripts": {
-		"build": "tsc",
-		"start": "tsc -w"
-	},
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc -w"
+  },
   "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
     "typescript": "^4.4.4"
   }
 }
