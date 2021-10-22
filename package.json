@@ -5,5 +5,11 @@
   "main": "dist/index.js",
   "repository": "git@github.com:nielswijers/lips-ui.git",
   "author": "Niels Wijers <nielswijers@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+	"scripts": {
+		"build": "tsc"
+	},
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
 }
