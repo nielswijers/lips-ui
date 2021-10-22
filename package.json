@@ -7,7 +7,8 @@
   "author": "Niels Wijers <nielswijers@gmail.com>",
   "license": "MIT",
 	"scripts": {
-		"build": "tsc"
+		"build": "tsc",
+		"start": "tsc -w"
 	},
   "devDependencies": {
     "typescript": "^4.4.4"
